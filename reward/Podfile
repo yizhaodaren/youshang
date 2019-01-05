@@ -1,0 +1,54 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+target 'reward' do
+
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'ReactiveViewModel'
+pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+pod 'YYText'
+pod 'YYImage'
+pod 'UMCAnalytics', '~> 5.5.0'
+pod 'UMCShare/Social/ReducedWeChat', '= 6.9.3'
+pod 'UMCShare/Social/ReducedQQ', '= 6.9.3'
+pod 'UMCShare/Social/ReducedSina', '= 6.9.3'
+pod 'Bugly', '~> 2.5.0'
+pod 'JPush', '~> 3.0.9'
+#pod 'AliyunOSSiOS', '~> 2.10.4'
+pod 'SDWebImage'
+pod 'LKDBHelper'
+pod 'AFNetworking'
+pod 'YTKNetwork'
+pod 'Reachability'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'JGProgressHUD'
+pod 'MMMaterialDesignSpinner'
+pod 'TYAttributedLabel', '~> 2.6.2'
+pod 'ZWPlaceHolder'
+pod 'IQKeyboardManager'
+#七牛
+pod 'PLShortVideoKit', '~> 1.14.0'#短视频处理
+pod 'Qiniu'
+pod "PLPlayerKit", :podspec => 'https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec'    #短视频播放
+
+#云信
+pod 'NIMSDK_LITE'
+
+#支付
+#pod 'Pingpp', '~> 2.2.23'
+pod 'XYIAPKit'
+pod 'XYIAPKit/UserDefaultPersistence'
+
+
+  target 'rewardTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'rewardUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MOLSupLinkeViewController">
+            <connections>
+                <outlet property="myTF" destination="UyS-XP-0jM" id="9aa-n4-9LQ"/>
+                <outlet property="tagView" destination="uze-OL-dbg" id="bu9-Tk-epx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,打开外站视频播放页，点击分享" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Em1-wT-244">
+                    <rect key="frame" x="0.0" y="195" width="375" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,点击分享按钮上的复制链接按钮" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggm-tu-yBV">
+                    <rect key="frame" x="0.0" y="222" width="375" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3,把剪切板上的链接复制到输入框" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-dL-4BA">
+                    <rect key="frame" x="0.0" y="249" width="375" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rc_Group" translatesAutoresizingMaskIntoConstraints="NO" id="WqS-Bd-yes">
+                    <rect key="frame" x="50" y="321" width="275" height="185.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="WqS-Bd-yes" secondAttribute="height" multiplier="310:209" id="AKd-iA-j3h"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UyS-XP-0jM">
+                    <rect key="frame" x="50" y="120" width="275" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Yp0-Za-DDC"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uze-OL-dbg">
+                    <rect key="frame" x="0.0" y="296" width="375" height="10"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Huw-15-7Cn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="WqS-Bd-yes" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="2d1-WL-R2b"/>
+                <constraint firstAttribute="trailing" secondItem="Ggm-tu-yBV" secondAttribute="trailing" id="65B-dl-KyF"/>
+                <constraint firstAttribute="trailing" secondItem="uze-OL-dbg" secondAttribute="trailing" id="8px-L2-vTT"/>
+                <constraint firstItem="EqZ-dL-4BA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Alg-iv-8HE"/>
+                <constraint firstItem="EqZ-dL-4BA" firstAttribute="top" secondItem="Ggm-tu-yBV" secondAttribute="bottom" constant="10" id="BSl-K7-O1S"/>
+                <constraint firstItem="Em1-wT-244" firstAttribute="top" secondItem="UyS-XP-0jM" secondAttribute="bottom" constant="40" id="NiR-di-6Q8"/>
+                <constraint firstAttribute="trailing" secondItem="EqZ-dL-4BA" secondAttribute="trailing" id="P0O-Rj-clF"/>
+                <constraint firstItem="uze-OL-dbg" firstAttribute="top" secondItem="EqZ-dL-4BA" secondAttribute="bottom" constant="30" id="QCd-BB-Nxr"/>
+                <constraint firstItem="WqS-Bd-yes" firstAttribute="top" secondItem="uze-OL-dbg" secondAttribute="bottom" constant="15" id="SBJ-6e-HI4"/>
+                <constraint firstAttribute="trailing" secondItem="UyS-XP-0jM" secondAttribute="trailing" constant="50" id="Wmv-Mh-63H"/>
+                <constraint firstItem="Em1-wT-244" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xvy-SE-SId"/>
+                <constraint firstItem="UyS-XP-0jM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="120" id="Z7x-gU-vPa"/>
+                <constraint firstAttribute="trailing" secondItem="Em1-wT-244" secondAttribute="trailing" id="Za8-cv-mv4"/>
+                <constraint firstItem="uze-OL-dbg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aLG-aU-Iah"/>
+                <constraint firstItem="Ggm-tu-yBV" firstAttribute="top" secondItem="Em1-wT-244" secondAttribute="bottom" constant="10" id="dlX-4L-8Zg"/>
+                <constraint firstItem="UyS-XP-0jM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="enI-4d-hAh"/>
+                <constraint firstItem="Ggm-tu-yBV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hLT-rC-NbS"/>
+                <constraint firstAttribute="trailing" secondItem="WqS-Bd-yes" secondAttribute="trailing" constant="50" id="t2K-kQ-NHf"/>
+            </constraints>
+            <point key="canvasLocation" x="66.5" y="78.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rc_Group" width="316" height="213"/>
+    </resources>
+</document>

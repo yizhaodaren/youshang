@@ -1,0 +1,202 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HappyDNS (0.3.14)
+  - IQKeyboardManager (6.1.1)
+  - JCore (1.2.2)
+  - JGProgressHUD (2.0.3)
+  - JPush (3.0.9):
+    - JCore (~> 1.2.0)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
+  - MMMaterialDesignSpinner (0.2.5)
+  - NIMSDK_LITE (5.6.0)
+  - PLPlayerKit (3.3.3):
+    - PLPlayerKit/universal (= 3.3.3)
+  - PLPlayerKit/universal (3.3.3)
+  - PLShortVideoKit (1.14.0):
+    - PLShortVideoKit/ex-libMuseProcessor (= 1.14.0)
+    - PLShortVideoKit/libMuseProcessor (= 1.14.0)
+    - Qiniu (= 7.2.5)
+  - PLShortVideoKit/ex-libMuseProcessor (1.14.0):
+    - Qiniu (= 7.2.5)
+  - PLShortVideoKit/libMuseProcessor (1.14.0):
+    - Qiniu (= 7.2.5)
+  - Qiniu (7.2.5):
+    - HappyDNS (~> 0.3)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.3):
+    - ReactiveCocoa (~> 2.4)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - TYAttributedLabel (2.6.6)
+  - UMCAnalytics (5.5.1):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - UMCShare/Core (6.9.3):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.9.3):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.3):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.3):
+    - UMCCommon
+    - UMCShare/Core
+  - XYIAPKit (0.9.0):
+    - XYIAPKit/Core (= 0.9.0)
+  - XYIAPKit/Core (0.9.0)
+  - XYIAPKit/UserDefaultPersistence (0.9.0):
+    - XYIAPKit/Core
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+  - ZWPlaceHolder (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Bugly (~> 2.5.0)
+  - IQKeyboardManager
+  - JGProgressHUD
+  - JPush (~> 3.0.9)
+  - LKDBHelper
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension
+  - MJRefresh
+  - MMMaterialDesignSpinner
+  - NIMSDK_LITE
+  - PLPlayerKit (from `https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec`)
+  - PLShortVideoKit (~> 1.14.0)
+  - Qiniu
+  - Reachability
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - ReactiveViewModel
+  - SDWebImage
+  - TYAttributedLabel (~> 2.6.2)
+  - UMCAnalytics (~> 5.5.0)
+  - UMCShare/Social/ReducedQQ (= 6.9.3)
+  - UMCShare/Social/ReducedSina (= 6.9.3)
+  - UMCShare/Social/ReducedWeChat (= 6.9.3)
+  - XYIAPKit
+  - XYIAPKit/UserDefaultPersistence
+  - YTKNetwork
+  - YYImage
+  - YYText
+  - ZWPlaceHolder
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bugly
+    - FMDB
+    - HappyDNS
+    - IQKeyboardManager
+    - JCore
+    - JGProgressHUD
+    - JPush
+    - LKDBHelper
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MMMaterialDesignSpinner
+    - NIMSDK_LITE
+    - PLShortVideoKit
+    - Qiniu
+    - Reachability
+    - ReactiveViewModel
+    - SDWebImage
+    - TYAttributedLabel
+    - UMCAnalytics
+    - UMCCommon
+    - UMCShare
+    - XYIAPKit
+    - YTKNetwork
+    - YYImage
+    - YYText
+    - ZWPlaceHolder
+
+EXTERNAL SOURCES:
+  PLPlayerKit:
+    :podspec: https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  JCore: f14c0549968a63c22e246a4875aa9d428446f373
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  JPush: 48041e8c5ad2ef9b48709eb0888af9640b36e9b0
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MMMaterialDesignSpinner: a548042720c2e5f04212048483085d7942ac3e81
+  NIMSDK_LITE: fdf7216c84c2c3f0aa662ddf6c78728726845fd8
+  PLPlayerKit: 75bbb10e8428952e945dfbceb27ae8da5d15f0b8
+  PLShortVideoKit: 69a722ebc12cc6e56e2702ea61f9e97fbd3086f5
+  Qiniu: 909b408ee489ea54827e9717be90b94bc9dfbc48
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TYAttributedLabel: cb8fc910d97eb5224936d4f692a78e042af691b2
+  UMCAnalytics: 0aff87e39008e2a650e5917430db0da2de2f8495
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCShare: 023886b10d11119331c9c46d8e8a0c31fe67c23e
+  XYIAPKit: f4469a4c0e72cee2f81a070d5125ff0f20ae56b3
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZWPlaceHolder: d55cce10c9930b48c31bf48e7f4748974a31f7e0
+
+PODFILE CHECKSUM: d9a9b82fdc050fc604c09e091ac19f3ac08daedf
+
+COCOAPODS: 1.5.3
